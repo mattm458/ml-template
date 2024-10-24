@@ -1,7 +1,7 @@
+import json
 from typing import Optional
 
 import click
-import ujson as json
 from click import Context
 
 
