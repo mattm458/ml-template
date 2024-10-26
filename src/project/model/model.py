@@ -3,6 +3,10 @@ from torch import Tensor
 
 
 class ExampleModel(pl.LightningModule):
+    def __init__(self):
+        super().__init__()
+        self.save_hyperparameters()
+
     def forward(self, x: Tensor) -> Tensor:
         return x
 
