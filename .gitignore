@@ -1,3 +1,5 @@
+.vscode
+
 # Custom ML project exclusions
 lightning_logs/
 *.ipynb
