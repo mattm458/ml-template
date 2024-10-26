@@ -17,6 +17,7 @@ classifiers = [
 ]
 dependencies = [
     "click==8.1.7",
+    "jsonargparse[signatures]==4.33.2",
     "lightning==2.4.0",
     "pytest==8.3.3",
     "tensorboard==2.18.0",
@@ -28,7 +29,7 @@ dependencies = [
 "Bug Tracker" = "https://github.com/mattm458/ml-template/issues"
 
 [project.scripts]
-project = "project.project:start"
+project = "project.project:cli_main"
 
 [tool.pytest.ini_options]
 addopts = [

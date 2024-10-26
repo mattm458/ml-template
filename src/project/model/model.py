@@ -1,9 +1,10 @@
 from lightning import pytorch as pl
+from torch import Tensor
 
 
-class MyModel(pl.LightningModule):
-    def forward(self):
-        return None
+class ExampleModel(pl.LightningModule):
+    def forward(self, x: Tensor) -> Tensor:
+        return x
 
     def configure_optimizers(self):
         return None
