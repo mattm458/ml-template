@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=75.8"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -10,18 +10,17 @@ authors = [
 ]
 description = "description"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = "<=3.12.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "click==8.1.7",
-    "jsonargparse[signatures]==4.33.2",
-    "lightning==2.4.0",
-    "pytest==8.3.3",
+    "jsonargparse[signatures]==4.35.0",
+    "lightning==2.5.0.post0",
+    "pytest==8.3.4",
     "tensorboard==2.18.0",
-    "torch==2.5.0",
+    "torch==2.5.1",
 ]
 
 [tool.setuptools.package-data]
