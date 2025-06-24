@@ -34,7 +34,7 @@ where = ["src"]
 "Bug Tracker" = "https://github.com/mattm458/ml-template/issues"
 
 [project.scripts]
-project = "project.project:cli_main"
+project = "project.main:cli_main"
 
 [tool.pytest.ini_options]
 addopts = [
