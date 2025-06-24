@@ -16,11 +16,11 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "jsonargparse[signatures]==4.35.0",
-    "lightning==2.5.0.post0",
-    "pytest==8.3.4",
-    "tensorboard==2.18.0",
-    "torch==2.5.1",
+    "jsonargparse[signatures]==4.40.0",
+    "lightning==2.5.2",
+    "pytest==8.4.1",
+    "tensorboard==2.19.0",
+    "torch==2.7.1",
 ]
 
 [tool.setuptools.package-data]
