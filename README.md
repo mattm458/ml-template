@@ -7,6 +7,7 @@ This repository contains a template for all of my ML projects. The template incl
 - A simple executable that bootstraps [Lightning CLI](https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.cli.LightningCLI.html).
 
 Once you make your own project from this repository, create a virtual environment, enter it, then run:
+
 ```pip install -e .```
 
 Please use the `config/` directory to manage different model configurations.
